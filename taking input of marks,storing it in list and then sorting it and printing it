@@ -1,0 +1,10 @@
+#write a program to take marks marks of 6 students and print hem in sorted order
+a=int(input("enter marks of student1 "))
+b=int(input("enter marks of student2 "))
+c=int(input("enter marks of student3 "))
+d=int(input("enter marks of student4 "))
+e= int(input("enter marks of student5 "))
+f=int(input("enter marks of student6 "))
+markslist=[a,b,c,d,e,f]
+markslist.sort()
+print(markslist)
